@@ -17,36 +17,63 @@
 <script src="https://kit.fontawesome.com/eb49dd3df4.js" crossorigin="anonymous"></script>
 
   <!-- Bootstrap CSS -->
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <!-- css -->
-  <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css">
+
+
   <!-- <link rel="icon" href="favicon-io/favicon-16x16.png"> -->
   <title>inspiring other people with your solution-ins-pyr</title>
 </head>
 
 <body>
   <!-- navigation-btn -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-success my-navbar">
     <a class="navbar-brand" href="index.html"><img src="images/ins-pyr.png" alt="ins-pyrlogo"></a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#inspyr" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="inspyr">
-      <ul class="navbar-nav ml-auto navbar-inspyr">
-        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">about us</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">mission</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">contact</a></li>
+    <div class="collapse navbar-collapse navbar-inspyr" id="inspyr">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a class="nav-link inspyr-link" href="#">pitch</a></li>
+        <li class="nav-item"><a class="nav-link inspyr-link" href="#">vote</a></li>
+        <li class="nav-item"><a class="nav-link inspyr-link" href="#">info</a></li>
+        <li class="nav-item"><a class="nav-link inspyr-link" href="#">about</a></li>
+        <li class="nav-item"><a class="nav-link inspyr-link" href="#">donate</a></li>
       </ul>
+      <div class="log-in-get-started">
+      <ul class="navbar-nav navbar-inspyr">
+      <li class="log-in nav-item mr-sm-2"><a class="nav-link inspyr-link" href="#">log in</a></li>
+      <button class="btn btn-warning" type="button" name="button">get started</button>
+      </ul>
+      </div>
     </div>
   </nav>
   <!--landing page-->
-  <section id="home" class="container-fluid">
-    <div class="row justify-content-between">
+  <section id="home-page" class="container-fluid">
+    <div class="bg-video video-container">
+      <div class="video-wrap">
+        <video src="video/video.mov" type="mp4" autoplay loop>
+        </video>
+        <div class="video-overlay">
+        </div>
+      </div>
+      <div class="home-content">
+        <h1>Inspire Fire</h1>
+        <p>We believe that everyone has a fire within them. A fire filled with all of the hopes, dreams, and passions that keep us up at night, and tickle our imagination.</p>
+        <p>We want to help inflame those passions, excite our energies, and inspire the world unto greatness</p>
+        <button class="btn btn-warning cta" type="button" name="button">
+          sign up
+        </button>
+      </div>
+
+    </div>
+    <!-- <div class="row justify-content-between">
       <div class="inspyr-video col-lg-5 ml-lg-5">
     <iframe src="https://www.youtube.com/embed/H2Zd0-0XLBU" frameborder="0" allow="accelerometer; autoplay encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
+
       </div>
 
       <div class="home-right-content col-lg-5 mr-lg-5">
@@ -59,7 +86,7 @@
             <span class="inspire-fire">Here at PYR, we’re working to Inspire Fire.</span>
       </div>
 
-    </div>
+    </div> -->
   </section>
 
   <!-- footer -->
