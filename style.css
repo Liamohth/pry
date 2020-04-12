@@ -4,6 +4,21 @@
 body{
   overflow-x: hidden;
 }
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Raleway', sans-serif;
+}
+ h1,h2{
+  text-transform:uppercase;
+  font-weight: bold;
+}
+p{
+  line-height: 30px;
+}
+.question-answer{
+  color:#e69138;
+  border:solid 1px #e69138;
+  padding:2px;
+}
 /* navigation-btn */
 .bg-success {
     background-color: #527318!important;
@@ -86,7 +101,99 @@ margin:auto;
   border-radius:5px;
   background-color: #b45f06;
 }
-
+/* pyr-scholarships */
+#pyr-scholarships{
+  margin-top:30px;
+}
+.fuel-your-fire{
+  background-image:url("../images/fuel-your-fire.jpg");
+  height:500px;
+  background-color: red;
+  opacity:0.55;
+  text-align: center;
+}
+.fuel-your-fire h1{
+  color:#fff;
+  font-size: 64px;
+  text-transform:uppercase;
+  padding-top:190px;
+  text-shadow: 2px 2px 3px red;
+}
+.six-second-scholarships{
+  margin:20px 0;
+}
+.first-home-images{
+    margin-left:100px;
+}
+.first-home-images img{
+  border-radius:10px;
+  width:400px;
+}
+.home-images{
+  margin-left:50px;
+  border-radius:10px;
+}
+.home-images img{
+  border-radius:10px;
+  width:350px;
+}
+.what-you-could-for-hundred-dollar{
+  margin-top:60px;
+  margin-right: 10px;
+}
+.sub-title{
+  color:#cccccc;
+  padding:10px 80px;
+}
+.list-of-things-for-hundred-dollar{
+  margin-top:30px;
+}
+#how-it-work, #What-the-Catch{
+  margin-top:30px;
+}
+.main-heading{
+  height: 20vh;
+  background-color:#e69138;
+  color:#fff;
+}
+.main-heading h1{
+  text-align:center;
+  padding-top: 50px;
+}
+.very-simply{
+  margin:20px 50px;
+  line-height: 30px;
+}
+hr{
+  border:dashed #e69138;
+  border-width: 1px;
+}
+.break{
+  display:block;
+  margin:25px;
+}
+.break h6{
+  position:relative;
+  text-align: center;
+  border-bottom:solid 1px #e69138;
+  font-size: 20px;
+  color:#cccccc;
+  text-transform: capitalize;
+}
+.break h6 span{
+  position:relative;
+  top:10px;
+  background-color:#fff;
+  padding:0 10px;
+}
+/* What-the-Catch */
+.What-the-Catch{
+  margin-top:30px;
+}
+.what-the-catch-contents{
+    margin-left:50px;
+    margin-top:60px;
+}
 @media(max-width:960px) {
   .home-content{
     position:static;
