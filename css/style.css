@@ -139,7 +139,7 @@ margin:auto;
 }
 .what-you-could-for-hundred-dollar{
   margin-top:60px;
-  margin-right: 10px;
+  margin-right:10px;
 }
 .sub-title{
   color:#cccccc;
@@ -200,6 +200,20 @@ hr{
     left:0;
     width:100%;
   }
-
-
+  .home-images{
+    margin-left:30px;
+  }
+  .first-home-images{
+    margin-left:15px;
+  }
+  .what-you-could-for-hundred-dollar{
+    margin-right:0px;
+  }
+  .first-home-images img{
+    width:350px;
+  }
+  .very-simply{
+    margin:20px 30px;
+    line-height: 30px;
+  }
 }
